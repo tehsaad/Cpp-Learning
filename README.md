@@ -1,2 +1,2 @@
 # Cpp Learning
-My Route of Cpp Befoer NUST
+My Route of Cpp Before NUST
