@@ -17,6 +17,7 @@ Person(string n, int a){
 }
 };
 
+
 class Student : public Person {  // : Mode of Inhertitance 
     
 public:
