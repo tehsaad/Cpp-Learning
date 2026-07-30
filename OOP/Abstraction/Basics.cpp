@@ -10,7 +10,6 @@ using namespace std;
 //-Never Creates an Object
 //-Blueprint(Abstract Class) of Bluepints(Classes)
 
-
 class Ab{
 public:
     virtual void reps() = 0;    // Blueprint, Pure Abstract Funtion
