@@ -9,6 +9,7 @@ private:
     string name;
     int age;
 
+
 public:
     Student(string n, int a) {
         name = n;
@@ -17,6 +18,7 @@ public:
 
     friend void display(Student s);   //Friend Funtion
 };
+
 
 void display(Student s) {
     cout << "Name: " << s.name << endl;
