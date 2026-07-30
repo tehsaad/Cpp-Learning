@@ -23,6 +23,7 @@ public:
     string gender;
 };  
 
+
 void getinfo(Person &p);
 int main() {
     Person p1("John", 30, "Male");
