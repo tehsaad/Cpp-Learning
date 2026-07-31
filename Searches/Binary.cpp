@@ -2,15 +2,14 @@
 using namespace std;
 
 int main(){
-
-    int nums[]={0,1,12,19,20,55,78,95,1050,3756,4236,6587,15820};
+    int nums[]={1,2,3,4,5,6,7,8,9,10,345,2456,32466,267217,3457637,367830234};
     int n = size(nums);
-    cout << "Enter the Target:"  ;
-    int target; cin >> target ;
+    cout << "Enter Target:";
+    int target; cin >> target;
 int start=0;
 int end = n-1;
 int mid;
-    for(int i=0;i<n;i++){
+    while(start <= end){
         mid = (start+end)/2;
 
         if(nums[mid]<target){
@@ -19,11 +18,10 @@ int mid;
         else if(nums[mid]>target){
             end = mid - 1;
         }else{
-            break;
+            if(nums[mid]== target){
+                return mid;
+            }
         }       
     }
-        
-    cout<< target << " at Index "<< mid  << endl;
-
-   return 0; 
+    return -1;   // Target Not found
 }
