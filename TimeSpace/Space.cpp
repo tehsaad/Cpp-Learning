@@ -9,5 +9,10 @@
  O(K)  = Constant Number of additional Variables Created 
  O(n)  = Memory of the Size of input Created
  
+
+ Recursion:
+ SC = Number of Calls * Size inc in each call
+
+ 
 */
 
