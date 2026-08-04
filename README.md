@@ -14,12 +14,14 @@ This repository contains my notes, practice programs, and implementations of fun
 - Array Operations
 - Practice Problems
 
+
 ### 📌 Functions
 - Function Basics
 - Parameters & Arguments
 - Return Values
 - Recursion
 - Function Overloading
+
 
 ### 📌 Object-Oriented Programming (OOP)
 - Classes & Objects
@@ -29,26 +31,31 @@ This repository contains my notes, practice programs, and implementations of fun
 - Polymorphism
 - Abstraction
 
+
 ### 📌 Vectors
 - Vector Basics
 - Dynamic Arrays
 - Common STL Operations
 - Iterators
 
+
 ### 📌 File I/O
 - Reading Files
 - Writing Files
 - File Streams (`fstream`)
+
 
 ### 📌 Searching Algorithms
 - Linear Search
 - Binary Search
 - Time Complexity Comparison
 
+
 ### 📌 Time & Space Complexity
 - Big O Notation
 - Best, Average & Worst Cases
 - Complexity Analysis
+
 
 ---
 
