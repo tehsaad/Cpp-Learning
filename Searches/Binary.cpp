@@ -9,6 +9,7 @@ int main(){
 int start=0;
 int end = n-1;
 int mid;
+
     while(start <= end){
         mid = (start+end)/2;
 
