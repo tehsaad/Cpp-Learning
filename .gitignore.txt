@@ -1,5 +1,0 @@
-.vscode
-.exe
-.env
-launch.json
-tasks.json
